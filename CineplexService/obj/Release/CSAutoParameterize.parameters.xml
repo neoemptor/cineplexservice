@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="CineplexServiceContext-Web.config Connection String" description="CineplexServiceContext Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:studentappserver30022962.database.windows.net,1433;Initial Catalog=StudentAppDB30022962;Persist Security Info=False;User ID=login30022962;Password=Darshabai62#;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\darren\\Dropbox\\CPI_Web_Dev_Course\\Developing\ Windows\ Azure\ and\ Web\ Services\\CineplexService\\CineplexService\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='CineplexServiceContext']/@connectionString" />
+  </parameter>
+  <parameter name="CineplexServiceContext_DatabasePublish-Web.config Connection String" description="CineplexServiceContext_DatabasePublish Connection String used in web.config by the application to access the database." defaultValue="CineplexServiceContext_DatabasePublish.ConnetionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\darren\\Dropbox\\CPI_Web_Dev_Course\\Developing\ Windows\ Azure\ and\ Web\ Services\\CineplexService\\CineplexService\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='CineplexServiceContext_DatabasePublish']/@connectionString" />
+  </parameter>
+</parameters>
